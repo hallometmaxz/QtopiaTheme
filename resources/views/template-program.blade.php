@@ -15,7 +15,15 @@ Template Name: Program
                 <div class="column40 padding60 ">
                     <h2 class="white">{{$date['date']}}</h2>
                 </div>
-@dump($date)
+                @dump($date)
+
+
+                @if have_row('expositionblock')
+                  @while (have_rows('expositionblock')) @php the_row() @endphp
+                    <h2>{!! the_sub_field('expotitle') !!}</h2>
+                  @endwhile
+                @endif
+
 
                 <button type="button" class="collapsible">
                     <div class="title">
