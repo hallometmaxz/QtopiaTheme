@@ -1,0 +1,114 @@
+.programs {
+  overflow: hidden;
+  width: 97%;
+  margin: 0 auto;
+  position: relative;
+  padding: 60px 0 100px;
+}
+
+.programs hr {
+  margin: 0 0 40px 0;
+}
+
+.programs .title {
+  width: 92%;
+  margin: 0 auto;
+}
+
+.programs ul {
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 0 2%;
+}
+
+.programs li {
+  width: 20%;
+  float: left;
+  margin: 0 0 80px;
+  position: relative;
+  padding: 0 2% 20px;
+}
+
+.programs li img:hover {
+  mix-blend-mode: multiply;
+  cursor: pointer;
+}
+
+.image-bg {
+  background: #49ba86;
+  margin: 0 0 20px 0;
+  position: relative;
+}
+
+.programs li a {
+  color: #fff;
+}
+
+.programs li p a {
+  border-bottom: 1px solid #fff;
+  font-size: 16px;
+}
+
+.programs li:hover {
+  color: #49ba86;
+}
+
+.programs a:hover {
+  color: #49ba86;
+}
+
+.programs li p a:hover {
+  border-bottom: 1px solid #49ba86;
+}
+
+@media all and (max-width: 2500px) {
+  .programs li {
+    width: 25%;
+  }
+}
+
+@media all and (max-width: 2000px) {
+  .programs li {
+    width: 33.3%;
+  }
+}
+
+@media all and (max-width: 1100px) {
+  .programs li {
+    width: 50%;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .programs li {
+    width: 100%;
+  }
+
+  .programs {
+    margin: 50px auto 50px;
+  }
+
+  .full-hero-image .box-note {
+    bottom: 25px;
+    left: 25px;
+  }
+
+  .full-hero-image .box-note.red,
+  .full-hero-image .box-note.purple {
+    left: 20px;
+  }
+
+  .full-hero-image .box-note.red h6.event-status,
+  .full-hero-image .box-note.purple h6 a {
+    font-size: 10px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .full-hero-image .box-note.purple,
+  .full-hero-image .box-note.red {
+    display: none;
+  }
+}

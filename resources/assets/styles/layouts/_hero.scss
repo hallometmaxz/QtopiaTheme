@@ -1,0 +1,30 @@
+.content {
+  width: 1500px;
+  margin: 0 auto;
+  overflow: hidden;
+  background: transparant;
+}
+
+@media screen and (max-width: 1650px) {
+  .content {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+.content1100 {
+  width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1280px) {
+  .content1100 {
+    width: 90%;
+  }
+}
+
+.hero {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}

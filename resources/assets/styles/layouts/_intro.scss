@@ -1,0 +1,102 @@
+.introduction {
+  width: 70%;
+  margin: 0 0 0 5%;
+  color: white;
+}
+
+.introduction .column60 {
+  padding: 0 15% 0 0;
+}
+
+.introduction h2 {
+  color: white;
+}
+
+.introduction p {
+  font-size: 19px;
+  line-height: 34px;
+  color: #fff;
+}
+
+.introduction p a {
+  color: #fff !important;
+  border-bottom: 1px solid #fff;
+}
+
+.introduction b {
+  color: #fff !important;
+  border-bottom: 1px solid white;
+}
+
+.introduction p a:hover {
+  color: #fe4423;
+  border-bottom: 1px solid #fe4423;
+}
+
+@media all and (max-width: 1600px) {
+  .introduction .column60 {
+    padding: 0 10% 0 0;
+  }
+
+  .introduction {
+    margin: 0;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  .introduction .column60 {
+    padding: 0 10% 0 0;
+  }
+
+  .introduction .column40,
+  .introduction .column60 {
+    padding: 0 10% 0 0;
+    width: 100%;
+  }
+
+  .introduction {
+    width: 60%;
+    margin: 0 0 0 5%;
+  }
+
+  .black-box {
+    width: 40%;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .introduction {
+    width: 90%;
+    margin: 50px auto 50px;
+  }
+
+  .black-box {
+    width: 100%;
+  }
+
+  .introduction .column60 {
+    padding: 0;
+  }
+
+  .home .content1100 {
+    margin: 0;
+    width: 100%;
+  }
+
+  .home .content-full {
+    padding: 50px 0 0 0;
+  }
+}
+
+.black-box {
+  width: 30%;
+  padding: 50px 50px 10px 50px;
+  background-color: #49ba86;
+  color: white;
+}
+
+.black-box a b {
+  color: white;
+  text-decoration: underline;
+  padding-bottom: 10px;
+}

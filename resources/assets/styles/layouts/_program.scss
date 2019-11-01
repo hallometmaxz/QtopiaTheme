@@ -1,0 +1,123 @@
+
+#popup {
+  position: fixed;
+  margin-top: 250px;
+  width: 50%;
+  padding: 40px;
+  background-color: #49ba86;
+  display: inline-block;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity 0.7s;
+  transition: opacity 0.7s;
+  z-index: 999;
+  text-align: center;
+  box-shadow: 1px 1px 2px #2b2f6a, 0 0 25px #2b2f6a, 0 0 5px #2b2f6a;
+}
+
+#popup .closepopup {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 35px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.collapsible {
+  cursor: pointer;
+  padding-left: 55px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  background-color: transparent !important;
+}
+
+.angle i {
+  font-size: 35px;
+}
+
+.angle:hover i {
+  transform: rotate(180deg);
+}
+
+.angle:active i {
+  transform: rotate(180deg);
+}
+
+.content-program {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.programs {
+  overflow: hidden;
+  width: 97%;
+  margin: 0 auto;
+  position: relative;
+  padding: 100px 0 100px;
+}
+
+.programs hr {
+  margin: 0 0 40px 0;
+}
+
+.programs .title {
+  width: 92%;
+  margin: 0 auto;
+}
+
+.programs ul {
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 0 2%;
+}
+
+.programs li {
+  float: left;
+  margin: 0 0 80px;
+  position: relative;
+  padding: 0 2% 20px;
+}
+
+.programs li img:hover {
+  mix-blend-mode: multiply;
+  cursor: pointer;
+}
+
+.image-bg {
+  background: #49ba86;
+  margin: 0 0 20px 0;
+  position: relative;
+}
+
+.programs li a {
+  color: #fff;
+}
+
+.programs li p a {
+  border-bottom: 1px solid #fff;
+  font-size: 16px;
+}
+
+.programs li:hover {
+  color: #49ba86;
+}
+
+.programs a:hover {
+  color: #49ba86;
+}
+
+.programs li p a:hover {
+  border-bottom: 1px solid #49ba86;
+}
+
+.green {
+  color: #49ba86;
+}
